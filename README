@@ -1,0 +1,39 @@
+CSCI-4229 Final Project
+Professor Schreuder
+Student Name: Zijun Xu
+
+--------------------------How to run the project------------------------------------
+1. Unzip the package.
+2. In terminal, go to the unzipped folder and make.
+3. Type "./project".
+* In order to see the objects in first person mode, drag your mouse a little bit.
+
+----------------------------Project Overview---------------------------------------
+In this project, you will be able to explore a small town that consists of houses, streets, a military base, and a lot more other details in first person style. You will also be able to view the town at different lighting styles, including sunlight, lamps light, and a torch light mode. The program is intended to run in first person mode, but a perspective mode is added to give an overview of the scene. 
+* When you first open the project, it is default in perspective mode with sunlight style.
+
+----------------------------Key bindings-------------------------------------------
+Overall Control:
+  ESC    Exit
+  m      Switch mode between perspective and first person. Default is perspective.
+  l	 Switch style among sunlight, lamp light, and torch light. Default is sunlight.
+  0      Reset view angle and eye position
+  space  pause the sunlight (only in sunlight style)
+
+Perspective mode:
+  arrows   Change view angle
+
+First Person mode:
+  Drag mouse to look around
+  w/s      move forward/backward
+  a/d      move left/right
+  1/2      decrease/increase height of camera
+
+----------------------------Things I am proud of-----------------------------------
+Be sure to check out the torch light style in first person mode. You can move around while you point your torch to light up objects that are in front of you, which is quite realistic. I hope you will enjoy it!
+
+-----------------------Hours spent and reflections---------------------------------
+I spent around 90 hours on this project. There are some aspects of the projects that can still be improved:
+1) The camera movement in first person mode is not very smooth. A possible solution is using a timer function.
+2) When the mouse hit the edge of the screen, I cannot further rotate my camera to that direction in first person mode. 
+3) Consider making functions that draw the basic 3d objects and using these functions to draw more complex objects. For example, a function that draws a cube. This way, I would have saved a lot of time by avoid drawing every cube objects manually.
